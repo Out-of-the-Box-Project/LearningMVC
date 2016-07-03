@@ -1,0 +1,61 @@
+﻿@model IEnumerable<AddressBook.Models.ContactsViewModel>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Contacts</h2>
+@if(Model == null)
+{
+    <div class="panel-warning warning">
+        You have don't have any contacts yet!
+    </div>
+}
+else
+{
+    <div class="row text-bold list-group-item-heading">
+        <div class="col-sm-2">
+            First Name
+        </div>
+        <div class="col-sm-2">
+            Last Name
+        </div>
+        <div class="col-sm-2">
+            Nick Name
+        </div>
+        <div class="col-sm-2">
+            Phone Number
+        </div>
+        <div class="col-sm-2">
+            Email Address
+        </div>
+        <div class="col-sm-2">
+            <a href="/contacts/new" ad><i class="glyphicon glyphicon-plus"></i></a>
+        </div>
+    </div>
+    foreach (var contact in Model)
+    {
+        <div class="row">
+            <div class="col-sm-2">
+                @contact.FirstName
+            </div>
+            <div class="col-sm-2">
+                @contact.LastName
+            </div>
+            <div class="col-sm-2">
+                @contact.NickName
+            </div>
+            <div class="col-sm-2">
+                @contact.PhoneNumber
+            </div>
+            <div class="col-sm-2">
+                @contact.EmailAddress
+            </div>
+            <div class="col-sm-2">
+                <a href="@Url.RouteUrl("ViewContact",new { id = contact.Id })" title="View contact"><i class="glyphicon glyphicon-eye-open"></i></a>
+               
+            </div>
+        </div>
+    }
+}
+

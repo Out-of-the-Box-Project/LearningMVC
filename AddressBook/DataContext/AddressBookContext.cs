@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataContext
 {
-    class AddressBookContext : DbContext
+    public class AddressBookContext : DbContext
     {
         public AddressBookContext() : base("AddressBook")
         {

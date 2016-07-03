@@ -51,11 +51,21 @@
   <ItemGroup>
     <Compile Include="AddressBookContext.cs" />
     <Compile Include="Entities\Contact.cs" />
+    <Compile Include="Migrations\201607031318354_Add_Contacts.cs" />
+    <Compile Include="Migrations\201607031318354_Add_Contacts.Designer.cs">
+      <DependentUpon>201607031318354_Add_Contacts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201607031318354_Add_Contacts.resx">
+      <DependentUpon>201607031318354_Add_Contacts.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

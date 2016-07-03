@@ -1,0 +1,12 @@
+C:\Users\dherrin\Documents\GitHub\LearningMVC2\AddressBook\DataContext\bin\Debug\DataContext.dll.config
+C:\Users\dherrin\Documents\GitHub\LearningMVC2\AddressBook\DataContext\bin\Debug\DataContext.dll
+C:\Users\dherrin\Documents\GitHub\LearningMVC2\AddressBook\DataContext\bin\Debug\DataContext.pdb
+C:\Users\dherrin\Documents\GitHub\LearningMVC2\AddressBook\DataContext\bin\Debug\EntityFramework.dll
+C:\Users\dherrin\Documents\GitHub\LearningMVC2\AddressBook\DataContext\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dherrin\Documents\GitHub\LearningMVC2\AddressBook\DataContext\bin\Debug\EntityFramework.xml
+C:\Users\dherrin\Documents\GitHub\LearningMVC2\AddressBook\DataContext\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dherrin\Documents\GitHub\LearningMVC2\AddressBook\DataContext\obj\Debug\DataContext.csprojResolveAssemblyReference.cache
+C:\Users\dherrin\Documents\GitHub\LearningMVC2\AddressBook\DataContext\obj\Debug\DataContext.dll
+C:\Users\dherrin\Documents\GitHub\LearningMVC2\AddressBook\DataContext\obj\Debug\DataContext.pdb
+C:\Users\dherrin\Documents\GitHub\LearningMVC2\AddressBook\DataContext\obj\Debug\DataContext.Migrations.Add_Contacts.resources
+C:\Users\dherrin\Documents\GitHub\LearningMVC2\AddressBook\DataContext\obj\Debug\DataContext.csproj.GenerateResource.Cache
