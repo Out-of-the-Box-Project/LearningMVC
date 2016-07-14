@@ -19,6 +19,7 @@ namespace AddressBook.Models
         [Required]
         public string PhoneNumber { get; set; }
         [Required]
+        [DataType(DataType.EmailAddress)]
         public string EmailAddress { get; set; }
     }
 }

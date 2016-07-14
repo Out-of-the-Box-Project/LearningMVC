@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using DataContext;
 using DataContext.Entities;
 using AddressBook.Factories;
+using AddressBook.Models;
 
 namespace AddressBook.Controllers
 {
@@ -33,6 +34,11 @@ namespace AddressBook.Controllers
             {
                 return View(results);
             }
+
+            
+
+            
+
             return View();
         }
 
@@ -43,6 +49,20 @@ namespace AddressBook.Controllers
             return View(result);
         }
 
-        
+        public ActionResult CreateContact()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        public ActionResult CreateContact(ContactsViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+
+            }
+            return View(model);
+        }
     }
 }

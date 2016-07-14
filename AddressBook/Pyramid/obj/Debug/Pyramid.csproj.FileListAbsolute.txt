@@ -1,0 +1,6 @@
+C:\Users\dherrin\Documents\GitHub\LearningMVC2\AddressBook\Pyramid\bin\Debug\Pyramid.exe.config
+C:\Users\dherrin\Documents\GitHub\LearningMVC2\AddressBook\Pyramid\bin\Debug\Pyramid.exe
+C:\Users\dherrin\Documents\GitHub\LearningMVC2\AddressBook\Pyramid\bin\Debug\Pyramid.pdb
+C:\Users\dherrin\Documents\GitHub\LearningMVC2\AddressBook\Pyramid\obj\Debug\Pyramid.exe
+C:\Users\dherrin\Documents\GitHub\LearningMVC2\AddressBook\Pyramid\obj\Debug\Pyramid.pdb
+C:\Users\dherrin\Documents\GitHub\LearningMVC2\AddressBook\Pyramid\obj\Debug\Pyramid.csprojResolveAssemblyReference.cache
