@@ -7,7 +7,7 @@
 <h2>Contacts</h2>
 @if(Model == null)
 {
-    <div class="panel-warning warning">
+    <div class="panel-warning warning" style="background-color:goldenrod;">
         You have don't have any contacts yet!
     </div>
 }
@@ -30,7 +30,7 @@ else
             Email Address
         </div>
         <div class="col-sm-2">
-            <a href="/contacts/new" ad><i class="glyphicon glyphicon-plus"></i></a>
+            <a href="@Url.RouteUrl("Create Contact")" ad><i class="glyphicon glyphicon-plus"></i></a>
         </div>
     </div>
     foreach (var contact in Model)

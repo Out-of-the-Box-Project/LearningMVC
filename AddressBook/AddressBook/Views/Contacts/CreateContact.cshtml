@@ -1,0 +1,36 @@
+﻿@model AddressBook.Models.ContactsViewModel
+@{
+    ViewBag.Title = "CreateContact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>CreateContact</h2>
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        @Html.TextBoxFor(m => m.FirstName, new { id = "txt-first-name", @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.FirstName, "First Name Required", new { @class = "val-error" })
+    </div>
+    <div class="form-group">
+        @Html.TextBoxFor(m => m.LastName, new { id = "txt-last-name", @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.LastName, "Last Name Required", new { @class = "val-error" })
+    </div>
+    <div class="form-group">
+        @Html.TextBoxFor(m => m.NickName, new { id = "txt-nick-name", @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.TextBoxFor(m => m.PhoneNumber, new { id = "txt-phone-number", @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.PhoneNumber, "Phone Number Required", new { @class = "val-error" })
+    </div>
+    <div class="form-group">
+        @Html.TextBoxFor(m => m.EmailAddress, new { id = "txt-email-address", @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.EmailAddress, "Email Required", new { @class = "val-error" })
+    </div>
+        <button class="btn">Submit</button>
+
+}
+
+
+
+
+

@@ -13,7 +13,11 @@ namespace AddressBook
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            
+            routes.MapRoute(
+                name: "Create Contact",
+                url: "contacts/create-contact",
+                defaults: new { controller = "Contacts", action = "CreateContact" }
+            );
 
             routes.MapRoute(
                 name: "Contacts",
@@ -26,6 +30,7 @@ namespace AddressBook
                 url: "contacts/{id}",
                 defaults: new { controller = "Contacts", action = "ViewContact", id = UrlParameter.Optional }
             );
+
 
             routes.MapRoute(
                 name: "Default",
